@@ -14,10 +14,10 @@ if ! command -V modd >/dev/null 2>&1; then
 fi
 
 # Boot the vm
-vagrant up
+vagrant up --provision
 
 # Catch shutdown signal and kill both
 trap 'kill %1;' SIGINT
 
 # shut down the VM
-vagrant halt
+#vagrant halt

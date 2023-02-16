@@ -5,7 +5,7 @@
 VAGRANT_API_VERSION = 2
 
 # Local IP Address
-IP = '192.168.33.11'
+IP = '192.168.56.0'
 
 # Specs
 CPUS = 2
